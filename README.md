@@ -1,6 +1,6 @@
 # Project-Euler-Application
 
-This application, built in C#, demonstrates my solutions to 150+ Project Euler problems.
+This application, built in C#, demonstrates my solutions to 160+ Project Euler problems.
 
 ## Get Started
 
