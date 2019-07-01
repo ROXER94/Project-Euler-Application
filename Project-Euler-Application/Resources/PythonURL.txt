@@ -89,6 +89,7 @@
 093:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/093/93%20-%20ArithmeticExpressions.py
 094:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/094/94%20-%20AlmostEquilateralTriangles.py
 095:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/095/95%20-%20AmicableChains.py
+096:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/096/96%20-%20Sudoku.py
 097:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/097/97%20-%20LargeNon-MersennePrime.py
 098:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/098/98%20-%20AnagramicSquares.py
 099:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/099/99%20-%20LargestExponential.py
@@ -96,6 +97,7 @@
 101:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/101/101%20-%20OptimumPolynomial.py
 102:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/102/102%20-%20TriangleContainment.py
 104:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/104/104%20-%20PandigitalFibonacciEnds.py
+107:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/107/107%20-%20MinimalNetwork.py
 108:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/108/108%20-%20DiophantineReciprocals1.py
 110:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/110/110%20-%20DiophantineReciprocals2.py
 112:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/112/112%20-%20BouncyNumbers.py
@@ -111,8 +113,10 @@
 131:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/131/131%20-%20PrimeCubePartnership.py
 132:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/132/132%20-%20LargeRepunitFactors.py
 133:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/133/133%20-%20RepunitNonfactors.py
+134:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/134/134%20-%20PrimePairConnection.py
 145:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/145/145%20-%20ReversibleNumbers.py
 148:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/148/148%20-%20ExploringPascal'sTriangle.py
+160:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/160/160%20-%20FactorialTrailingDigits.py
 166:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/166/166%20-%20CrissCross.py
 169:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/169/169%20-%20NumberOfWaysNumberExpressedAsASumOfPowersOf2.py
 173:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/173/173%20-%20HollowSquareLaminae.py
@@ -150,6 +154,7 @@
 493:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/493/493%20-%20UnderTheRainbow.py
 504:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/504/504%20-%20InteriorLatticePoints.py
 548:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/548/548%20-%20GozintaChains.py
+569:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/569/569%20-%20PrimeMountainRange.py
 577:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/577/577%20-%20CountingHexagons.py
 581:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/581/581%20-%2047SmoothTriangularNumbers.py
 587:https://raw.githubusercontent.com/ROXER94/Project-Euler/master/587/587%20-%20ConcaveTriangle.py
