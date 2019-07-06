@@ -1,12 +1,12 @@
 # Project-Euler-Application
 
-This application, built in C#, demonstrates my solutions to 160+ Project Euler problems.
+This C# application demonstrates my solutions to 160+ Project Euler problems.
 
 ## Get Started
 
 1. Clone/download this repository to your computer
 
-2. Ensure dependency ICSharpCode.TextEditor.dll is adjacent to the executable
+2. Ensure dependency ICSharpCode.TextEditor.dll is adjacent to Project-Euler-Application.exe
 
 3. Run Project-Euler-Application.exe
 
