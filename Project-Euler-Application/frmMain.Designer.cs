@@ -111,7 +111,7 @@
             // 
             this.viewSourceToolStripMenuItem.Name = "viewSourceToolStripMenuItem";
             this.viewSourceToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.viewSourceToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
+            this.viewSourceToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
             this.viewSourceToolStripMenuItem.Text = "View Source";
             this.viewSourceToolStripMenuItem.Click += new System.EventHandler(this.viewSourceToolStripMenuItem_Click);
             // 
@@ -119,27 +119,27 @@
             // 
             this.SwitchLanguageToolStripMenuItem.Name = "SwitchLanguageToolStripMenuItem";
             this.SwitchLanguageToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.SwitchLanguageToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
-            this.SwitchLanguageToolStripMenuItem.Text = "View Python";
+            this.SwitchLanguageToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
+            this.SwitchLanguageToolStripMenuItem.Text = "View {Language}";
             this.SwitchLanguageToolStripMenuItem.Click += new System.EventHandler(this.SwitchLanguageToolStripMenuItem_Click);
             // 
             // viewFunctionsToolStripMenuItem
             // 
             this.viewFunctionsToolStripMenuItem.Name = "viewFunctionsToolStripMenuItem";
             this.viewFunctionsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.viewFunctionsToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
+            this.viewFunctionsToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
             this.viewFunctionsToolStripMenuItem.Text = "View Functions";
             this.viewFunctionsToolStripMenuItem.Click += new System.EventHandler(this.viewFunctionsToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(228, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(245, 6);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 

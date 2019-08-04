@@ -19,6 +19,7 @@ namespace Project_Euler_Application
         private string nextID { get; set; }
         private string language { get; set; }
         private IDictionary<string, string> problemsDictCSharp = new Dictionary<string, string>();
+        private IDictionary<string, string> problemsDictJava = new Dictionary<string, string>();
         private IDictionary<string, string> problemsDictPython = new Dictionary<string, string>();
         private IDictionary<string, string> specialDict = new Dictionary<string, string>();
         private WebClient webpage { get; set; }
@@ -63,6 +64,12 @@ namespace Project_Euler_Application
             linkLabelProblem.Left = buttonsLeft;
             lblTimeSolved.Top = btnPrevious.Top + 55;
             lblTimeSolved.Left = buttonsLeft;
+            if (language == "C#" || language == null)
+                SwitchLanguageToolStripMenuItem.Text = "View Java";
+            else if (language == "Java")
+                SwitchLanguageToolStripMenuItem.Text = "View Python";
+            else if (language == "Python")
+                SwitchLanguageToolStripMenuItem.Text = "View C#";
             webpage = new WebClient();
             webpage.Encoding = Encoding.UTF8;
             showForm();
@@ -197,6 +204,16 @@ namespace Project_Euler_Application
                     }
                     source = problemsDictCSharp[problemID];
                 }
+                else if (language == "Java")
+                {
+                    if (!problemsDictJava.ContainsKey(problemID))
+                    {
+
+                        githubURL = "https://raw.githubusercontent.com/ROXER94/Project-Euler-Java/master/Project-Euler/src/projecteuler/Problem" + problemID + ".java";
+                        problemsDictJava[problemID] = webpage.DownloadString(githubURL);
+                    }
+                    source = problemsDictJava[problemID];
+                }
                 else if (language == "Python")
                 {
                     if (!problemsDictPython.ContainsKey(problemID))
@@ -316,9 +333,21 @@ namespace Project_Euler_Application
 
         private void SwitchLanguageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SwitchLanguageToolStripMenuItem.Text = "View " + language;
-            if (language == "C#") language = "Python";
-            else if (language == "Python") language = "C#";
+            if (language == "C#")
+            {
+                language = "Java";
+                SwitchLanguageToolStripMenuItem.Text = "View Python";
+            }
+            else if (language == "Java")
+            {
+                language = "Python";
+                SwitchLanguageToolStripMenuItem.Text = "View C#";
+            }
+            else if (language == "Python")
+            {
+                language = "C#";
+                SwitchLanguageToolStripMenuItem.Text = "View Java";
+            }
             getProblemSolution(currentID);
             Refresh();
         }
@@ -326,7 +355,10 @@ namespace Project_Euler_Application
         private void viewFunctionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string text = "Project Euler Common Functions";
-            loadSpecialPage("https://raw.githubusercontent.com/ROXER94/Project-Euler-CSharp/master/ProjectEuler/Common/Functions.cs", text);
+            if (language == "C#" || language == "Python")
+                loadSpecialPage("https://raw.githubusercontent.com/ROXER94/Project-Euler-CSharp/master/ProjectEuler/Common/Functions.cs", text);
+            else if (language == "Java")
+                loadSpecialPage("https://raw.githubusercontent.com/ROXER94/Project-Euler-Java/master/Project-Euler/src/projecteuler/Functions.java", text);
         }
 
         private void loadSpecialPage(string githubURL, string text)
