@@ -1,9 +1,0 @@
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\bin\Release\Project-Euler-Application.exe.config
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\bin\Release\Project-Euler-Application.exe
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\bin\Release\Project-Euler-Application.pdb
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\bin\Release\ICSharpCode.TextEditor.dll
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\obj\Release\Project_Euler_Application.frmMain.resources
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\obj\Release\Project_Euler_Application.Properties.Resources.resources
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\obj\Release\Project-Euler-Application.csproj.GenerateResource.Cache
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\obj\Release\Project-Euler-Application.exe
-C:\Users\corne\Downloads\ProjectEulerApplication\Project-Euler-Application\Project-Euler-Application\obj\Release\Project-Euler-Application.pdb
