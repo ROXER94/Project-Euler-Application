@@ -41,6 +41,7 @@ namespace Project_Euler_Application
             this.WindowState = FormWindowState.Maximized;
             MinimumSize = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
             MaximumSize = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
+            this.DoubleBuffered = true;
 
             // Form initialization
             tableLayoutProblems.Left = 100;
